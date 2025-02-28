@@ -13,8 +13,8 @@ function App() {
         <Header />
         <div className="p-10 w-[85%] ">
           <Routes>
+            <Route path="/" element={<AllProducts />} />
             <Route path="/create" element={<Create />} />
-            <Route path="/products" element={<AllProducts />} />
             <Route path="/orders" element={<Orders />} />
             {/* <Route path="/products" element={<Products />} /> */}
           </Routes>
