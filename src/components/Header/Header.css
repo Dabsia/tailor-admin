@@ -1,0 +1,28 @@
+.mobileImageContainer {
+  display: none;
+}
+.webHeader {
+  display: flex;
+}
+.mobileHeader {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .desktopNav{
+    width: 40%
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .webHeader {
+    display: none;
+  }
+  .mobileHeader {
+    display: flex;
+  }
+
+  .mobileImageContainer {
+    display: flex;
+  }
+}
